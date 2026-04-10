@@ -13,6 +13,8 @@ const maxScoreSpan = document.getElementById("max_score");
 const resultMessage = document.getElementById("result_message");
 const restartButton = document.getElementById("restart_btn");
 const progressBar = document.getElementById("progress");
+const correctSound = new Audio("correct.mp3");
+const wrongSound = new Audio("wrong.mp3");
 
 // Quiz Questions
 const quizQuestions = [
@@ -136,6 +138,13 @@ function selectAnswer(event) {
       showResults();
     }
   }, 1000);
+  if (isCorrect) {
+  score++;
+  scoreSpan.textContent = score;
+  correctSound.play(correctSound); 
+} else {
+  wrongSound.play(wrongSound); 
+}
 }
 
 function showResults() {
@@ -147,15 +156,15 @@ function showResults() {
   const percentage = (score / quizQuestions.length) * 100;
 
   if (percentage === 100) {
-    resultMessage.textContent = "Perfect! You're a genius!";
+    resultMessage.textContent = "Perfect! You're a looser!";
   } else if (percentage >= 80) {
     resultMessage.textContent = "Great job! You know your stuff!";
   } else if (percentage >= 60) {
-    resultMessage.textContent = "Good effort! Keep learning!";
+    resultMessage.textContent = "Good effort! Keep gaming!";
   } else if (percentage >= 40) {
-    resultMessage.textContent = "Not bad! Try again to improve!";
+    resultMessage.textContent = "Not bad! ";
   } else {
-    resultMessage.textContent = "Keep studying! You'll get better!";
+    resultMessage.textContent = "Keep touching grass";
   }
 }
 
