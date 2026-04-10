@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #ffd597;
+    background: #ff97f1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,7 +36,7 @@ body {
 
 /* Start Screen */
 #start_screen h1 {
-    color: #e86a33;
+    color: #e833df;
     margin-bottom: 20px;
     font-size: 2.5rem;
 }
@@ -74,9 +74,9 @@ body {
 }
 
 .answer_btn {
-    background-color: #f8f0e5;
+    background-color: #f5e5f8;
     color: #333;
-    border: 2px solid #eadbc8;
+    border: 2px solid #eac8e8;
     border-radius: 10px;
     padding: 1rem;
     cursor: pointer;
@@ -85,8 +85,8 @@ body {
 }
 
 .answer_btn:hover {
-    background-color: #eadbc8;
-    border-color: #dac0ae;
+    background-color: #eac8e6;
+    border-color: #daaed8;
 }
 
 .answer_btn.correct {
@@ -111,19 +111,19 @@ body {
 
 .progress {
     height: 100%;
-    background-color: #e86a33;
+    background-color: #e833d0;
     width: 0%;
     transition: width 0.3s ease;
 }
 
 /* Result Screen */
 #result_screen h1 {
-    color: #e86a33;
+    color: #e833e8;
     margin-bottom: 30px;
 }
 
 .result_info {
-    background-color: #f8f0e5;
+    background-color: #f8e5f7;
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 30px;
@@ -138,11 +138,11 @@ body {
 #result_message {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #e86a33;
+    color: #e833ca;
 }
 
 button {
-    background-color: #e86a33;
+    background-color: #e833b2;
     color: white;
     border: none;
     border-radius: 10px;
@@ -153,7 +153,7 @@ button {
 }
 
 button:hover {
-    background-color: #d45b28;
+    background-color: #ce28d4;
 }
 
 /* Responsive Design */
