@@ -25,9 +25,9 @@ JAVA SCRIPT quiz logic
 
 *** How to use
 Open index.html
+OR visit https://yasminerahmani-dev.github.io/video-game-quiz/
 Answer the questions
 See your score
-or visit
 
 
 *** Author
