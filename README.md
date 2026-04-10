@@ -1,6 +1,11 @@
-# video-game-quiz
+# video-game-quiz 0.2 revised 
 This is a small and simple quiz about video games. made following a tutorial as a practice for hack club sleepover You answer questions and get a score at the end.
 Simple Video Game Quiz App
+
+***What's new
+I changed the color pallet to be pink as it is my favorite color
+I added sound effect that indicate if the answer is right of wrong
+I added more personal end notes
 
 *** Built with
 HTML
@@ -22,6 +27,8 @@ JAVA SCRIPT quiz logic
 Open index.html
 Answer the questions
 See your score
+or visit
+
 
 *** Author
 Jasmine
